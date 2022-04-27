@@ -8,7 +8,7 @@ body {
     margin: auto;
 }
 
-h1, p{
+h1, #description {
     text-align: center;
 }
 
@@ -19,6 +19,20 @@ form {
     padding: 25px;
 }
 
-form input {
+form input, select {
     display: block;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
 }
+
+#radio {
+
+    display: flex;
+}
+
+#checkboxes{
+    display: flex;
+    align-items: flex-start;
+}
+ 
